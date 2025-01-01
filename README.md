@@ -12,6 +12,8 @@
 -->
 # Document
 
+![](https://readthedocs.org/projects/jason40418-document/badge/?version=latest)
+
 > Version 0.1.0
 
 ## Command
