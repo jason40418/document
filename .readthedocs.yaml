@@ -1,0 +1,27 @@
+##
+#  @file
+#  Configuration file for Read the Docs.
+#
+#  @copyright
+#  Copyright (c) 2025, Jason Lin. All rights reserved.<BR>
+#
+#  SPDX-License-Identifier: BSD-3-Clause
+#
+#  @par Specification Reference:
+#  - https://pre-commit.com/
+#
+##
+
+version: "2"
+
+build:
+  os: "ubuntu-22.04"
+  tools:
+    python: "3.12"
+
+python:
+  install:
+    - requirements: requirements.txt
+
+sphinx:
+  configuration: source/conf.py

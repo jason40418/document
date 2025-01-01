@@ -1,0 +1,30 @@
+##
+#  @file
+#  Git configuration file to control files or directories for tracking.
+#
+#  @copyright
+#  Copyright (c) 2025, Jason Lin. All rights reserved.<BR>
+#
+#  SPDX-License-Identifier: BSD-3-Clause
+#
+#  @par Specification Reference:
+#  - Refer: https://git-scm.com/docs/gitignore
+#
+##
+
+#
+# macOS.
+#
+.DS_Store
+
+#
+# Python virtual environment.
+#
+.venv/
+Pipfile*
+
+#
+# Output directories.
+#
+_build/
+html/
