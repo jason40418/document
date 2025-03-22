@@ -1,0 +1,29 @@
+##
+#  @file
+#  Dictionary file for repository specific commands and terminologies.
+#
+#  @copyright
+#  Copyright (c) 2025, Jason Lin. All rights reserved.<BR>
+#
+#  SPDX-License-Identifier: BSD-3-Clause
+#
+#  @par Specification Reference:
+#
+##
+
+#
+# Trees of document.
+#
+doctrees
+
+# Organization name - https://www.tianocore.org.
+tianocore
+
+# Table of Contents tree.
+toctree
+
+# Unified Extensible Firmware Interface
+uefi
+
+# eXtensible Host Controller Interface
+xhci
