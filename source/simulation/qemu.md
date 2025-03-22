@@ -81,7 +81,7 @@ mkfs.vfat USB.img
 ### Mount the Image
 
 ```
-sudo mkdir /mnt/VirtImg
-sudo mount -o loop USB.img /mnt/VirtImg
-sudo umount /mnt/VirtImg
+sudo mkdir /mnt/VirtualImg
+sudo mount -o loop USB.img /mnt/VirtualImg
+sudo umount /mnt/VirtualImg
 ```
