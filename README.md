@@ -20,12 +20,7 @@
 
 ```
 //
-// Change the directory under "source".
-//
-cd source
-
-//
 // Build the document.
 //
-python -m sphinx -T -b html -d _build/doctrees -D language=en . html
+python -m sphinx -T -b html -d _build/doctrees -D language=en source html
 ```
